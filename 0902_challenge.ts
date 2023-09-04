@@ -28,7 +28,7 @@ class Dict {
       this.words[word.term] = word.def;
     }
   }
-  def(term: string) {
+  _get(term: string) {
     return this.words[term];
   }
   _delete(term: string) {
