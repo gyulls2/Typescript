@@ -5,8 +5,9 @@ class Block {
   }
 }
 
-import { init, exit } from "myPackage";
+import { init, exit } from "./myPackage";
 init({
+  debug: true,
   url: "true",
 });
 
